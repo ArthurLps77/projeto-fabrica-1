@@ -1,0 +1,10 @@
+nome=(input("digite seu nome para começarmos: "))
+peso = float (input("Digite seu peso: "))
+altura= float(input("digite sua altura: "))
+
+IMC = peso/ float(altura ** 2)
+if IMC: 18.5, 24.9 == float(input(f"Peso normal"))
+if IMC: 25.0, 29.9 == float(input(f"Sobrepeso"))
+if IMC: 30.0, 34.9 == float(input(f"Obesidade Grau I"))
+if IMC: 35.0, 39.9 == float(input(f"Obesidade Grau II"))
+if IMC: 40.0    (input(f"Obesidade Grau III mórbida"))

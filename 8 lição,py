@@ -1,0 +1,7 @@
+# 8. Verificação de múltiplo de 5
+numero = int(input("digite um número: "))
+
+if numero % 5 == 0:
+    print("múltiplo de 5")
+else:
+    print("não é múltiplo de 5")
